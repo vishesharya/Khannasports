@@ -1,0 +1,35 @@
+.woocommerce .wdvppr-list-variation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.woocommerce .wdvppr-list-variation li {
+  margin-bottom: 5px;
+}
+
+.wdvppr-product-price .price del {
+  opacity: 0.4;
+}
+
+.wdvppr-product-price .woocommerce-Price-amount.amount {
+  font-weight: 500;
+}
+
+/* .woocommerce ul.products li.product .price[data-attr]:after { */
+.wdvppr-sale-badge {
+  content: attr(data-attr);
+  color: #fff;
+  background: #de5342;
+  padding: 0px 6px;
+  display: inline-block;
+  border-radius: 100vmax;
+  font-size: 11px;
+  margin-left: 6px;
+}
+
+.wdvppr-hide-default-price {
+  display: none;
+}
+
+/* data-attr="10% Off" */
